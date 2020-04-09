@@ -20,4 +20,8 @@ public class DemoApplication {
 		return "hello world . . ";
 	}
 
+	@RequestMapping("/hello2")
+	public String hello2() {
+		return "hello world . . ";
+	}
 }
