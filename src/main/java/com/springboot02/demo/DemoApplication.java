@@ -24,4 +24,14 @@ public class DemoApplication {
 	public String hello2() {
 		return "hello world . . ";
 	}
+	
+	
+	
+	@RequestMapping("/test")
+	public String test() {
+		return "this is test msg . . ";
+	}
+	
+	
+	
 }
